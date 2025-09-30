@@ -1,12 +1,12 @@
-stundenlohn = int(input("Gib deinen Stundenlohn ein: ",)) #eingabe stundenlohn
+#Gehaltsrechner mit user input
+#definition der Variabeln stundenlohn und arbeitsstunden mit nutzerinput
+stundenlohn = int(input("Gib deinen Stundenlohn ein: ",))       #festlegung des Wertes für die Variable als integer durch int()
+arbeitsstunden = int(input("Gib deine Arbeitsstunden an: ",))    
 
-arbeitsstunden = int(input("Gib deine Arbeitsstunden an: ",)) #eingabe arbeitsstunden
+#ausrechnen verdienst 
+verdienst = stundenlohn*arbeitsstunden 
 
-verdienst = stundenlohn*arbeitsstunden #ausrechnen verdienst
-
-
+#ausgabe der werte
 print("Arbeitsstunden: " , arbeitsstunden)
-
 print("Stundenlohn: " , stundenlohn)
-
 print("Verdienst: " , verdienst)

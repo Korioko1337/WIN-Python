@@ -1,8 +1,15 @@
-arbeitsstunden = 80
-stundenlohn = 30
+#festlegung des Wertes für die Variable arbeitsstunden, als integer
+arbeitsstunden = 80     
 
-print("Arbeitsstunden: ", arbeitsstunden)
+#festlegung des Wertes für die Variable stundenlohn, als integer                           
+stundenlohn = 30                                 
 
-print("Stundenlohn: ", stundenlohn)
 
-print("Verdienst: ", arbeitsstunden*stundenlohn)
+#Ausgabe des Wertes der Variable arbeitsstunden
+print("Arbeitsstunden: ", arbeitsstunden)        
+
+#Ausgabe des Wertes der Variable stundenlohn
+print("Stundenlohn: ", stundenlohn)              
+
+#Ausgabe des Verdienstes, welcher durch die Multiplikation der Variablen arbeitsstunden und stundenlohn errechnet wird
+print("Verdienst: ", arbeitsstunden*stundenlohn)    
