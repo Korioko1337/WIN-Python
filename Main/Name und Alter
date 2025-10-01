@@ -1,5 +1,5 @@
 #definition der Variabeln name und age
-name = "Annamaria"  #Name als String, deshalb in ""
+name = "Vorname"  #Name als String, deshalb in ""
 age = 21         #Alter als Integer, deshalb ohne ""
 
 #Berechnung des Alters in Tagen
