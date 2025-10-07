@@ -1,0 +1,9 @@
+wert = 12345
+print("Hallo", 20, 20* 20, wert)
+
+print("Hallo", 20, 20 * 20, wert, sep="/")
+print("Hallo", 20, 20 * 20, wert, sep="")
+
+print("Hallo", 20, 20*20, wert)
+print("Test", end=" ")
+print("123456")

@@ -1,0 +1,18 @@
+import random                                                       #modul random wird importiert
+
+print("Willkommen")
+
+t = int(input("Erraten Sie die Zahl zwischen 1 und 10: "))         #Eingabe der Zahl, die geraten wird
+
+
+number = random.randint(1,10)                                      #Zufallszahl zwischen 1 und 10 wird generiert     
+
+
+#wenn die Zahl richtig geraten wurde, wird gewonnen, ansonsten verloren
+while t != number:
+    if t < number:
+        t = int(input("Falsch geraten, die gesuchte Zahl ist größer, versuchen Sie es erneut: "))  
+    else:
+       t = int(input("Falsch geraten, die gesuchte Zahl ist kleiner, versuchen Sie es erneut: "))
+
+print("Gewonnen :)")
