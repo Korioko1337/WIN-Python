@@ -12,11 +12,12 @@ Vergleichsoperatoren und if-Anweisungen
 a = 10
 b = 20
 
+#Wenn a kleiner als b ist, dann ...
 if a < b:
     print(f"{a} ist kleiner als {b}")
 
 
-#if-else-Anweisung
+#if-else-Anweisung, wenn a kleiner als b ist, dann ..., sonst ...
 a = 10
 b = 20
 
@@ -25,6 +26,7 @@ if a < b:
 else:
     print(f"{a} ist nicht kleiner als {b}")
 
+#Wenn a kleiner als b ist, dann ..., wenn a gleich b ist, dann ..., sonst ...
 #if-elif-else-Anweisung
 a = 10
 b = 20
