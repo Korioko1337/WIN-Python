@@ -17,4 +17,4 @@ while t != number:
     else:
        t = int(input("Falsch geraten, die gesuchte Zahl ist kleiner, versuchen Sie es erneut: "))
 
-print("Gewonnen :)")
+print("Richtig :)")
