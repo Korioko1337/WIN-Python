@@ -1,4 +1,4 @@
-woerterbuch = {"Tag":"day"}
+woerterbuch = {"tag":"day"}
 
 
 while True:
