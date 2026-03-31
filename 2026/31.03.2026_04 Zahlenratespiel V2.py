@@ -23,3 +23,16 @@ else:
 
 # Spiel beenden
 
+number = 6
+
+t = number + 1
+
+while t != number:
+    t = int(input("Bitte geben Sie Ihre zu ratende Zahl ein: "))
+    if t < number:
+        t = print("Falsch geraten, die gesuchte Zahl ist größer.") 
+    else:
+       t = print("Falsch geraten, die gesuchte Zahl ist kleiner.")
+
+print("Richtig :)") 
+

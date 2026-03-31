@@ -19,7 +19,7 @@ for i in range(1,101):
     print(i, "Hallo")
 
 for i in range(100,0,-1):
-    print(i, "Hallo")
+    print(f"{i} Hallo")
 
 for i in range(2,101,2):
     print(i, "Hallo")
